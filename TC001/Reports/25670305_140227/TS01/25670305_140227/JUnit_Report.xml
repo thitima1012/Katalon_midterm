@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS01" time="34.929" tests="9" failures="0" errors="0">
+   <testsuite name="TS01" tests="9" failures="0" errors="0" time="34.929" skipped="0" timestamp="05-03-2024T14:02:33" hostname="Administrator - 10.53.16.106" id="Test Suites/TS01">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Administrator\\Katalon Studio\\TC001\\Reports\\25670305_140227\\TS01\\25670305_140227"/>
+         <property name="logFiles" value="C:\\Users\\Administrator\\Katalon Studio\\TC001\\Reports\\25670305_140227\\TS01\\25670305_140227\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Administrator\\Katalon Studio\\TC001\\Reports\\25670305_140227\\TS01\\25670305_140227\\img/01.png, C:\\Users\\Administrator\\Katalon Studio\\TC001\\Reports\\25670305_140227\\TS01\\25670305_140227\\img/02.png, C:\\Users\\Administrator\\Katalon Studio\\TC001\\Reports\\25670305_140227\\TS01\\25670305_140227\\img/03.png, C:\\Users\\Administrator\\Katalon Studio\\TC001\\Reports\\25670305_140227\\TS01\\25670305_140227\\img/04.png, C:\\Users\\Administrator\\Katalon Studio\\TC001\\Reports\\25670305_140227\\TS01\\25670305_140227\\img/05.png, C:\\Users\\Administrator\\Katalon Studio\\TC001\\Reports\\25670305_140227\\TS01\\25670305_140227\\img/06.png, C:\\Users\\Administrator\\Katalon Studio\\TC001\\Reports\\25670305_140227\\TS01\\25670305_140227\\img/08.png, C:\\Users\\Administrator\\Katalon Studio\\TC001\\Reports\\25670305_140227\\TS01\\25670305_140227\\img/010.png, C:\\Users\\Administrator\\Katalon Studio\\TC001\\Reports\\25670305_140227\\TS01\\25670305_140227\\img/011.png"/>
+         <property name="hostName" value="Administrator - 10.53.16.106"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.3.1.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="10.53.16.106"/>
+         <property name="sessionId" value="7ae589ecdaa81f5e8d98e9fdb269e42c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC01" time="4.874" classname="Test Cases/TC01" status="PASSED">
+         <system-out><![CDATA[05-03-2024T14:02:33 - [TEST_CASE][PASSED] - Test Cases/TC01: Test Cases/TC01
+
+05-03-2024T14:02:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T14:02:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T14:02:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T14:02:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T14:02:34 - [TEST_STEP][PASSED] - navigateToUrl("http://127.0.0.1/customerphp/customer.php"): Navigate to 'http://127.0.0.1/customerphp/customer.php' successfully
+
+05-03-2024T14:02:34 - [MESSAGE][PASSED] - Navigate to 'http://127.0.0.1/customerphp/customer.php' successfully
+
+05-03-2024T14:02:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_First Name_firstName"), "johnjohn"): Text 'johnjohn' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T14:02:35 - [MESSAGE][PASSED] - Text 'johnjohn' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T14:02:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Last Name_lastName"), "canonc"): Text 'canonc' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T14:02:36 - [MESSAGE][PASSED] - Text 'canonc' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T14:02:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Age_age"), "2"): Text '2' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T14:02:36 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T14:02:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Form/button_Submit")): Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T14:02:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T14:02:37 - [TEST_STEP][PASSED] - verifyTextPresent("First Name: johnjohn", false): Text 'First Name: johnjohn' is present on page 
+
+05-03-2024T14:02:37 - [MESSAGE][PASSED] - Text 'First Name: johnjohn' is present on page 
+
+05-03-2024T14:02:37 - [TEST_STEP][PASSED] - takeFullPageScreenshot("img/01.png"): Taking screenshot successfully
+
+05-03-2024T14:02:37 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-03-2024T14:02:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\TC001\\Reports\\25670305_140227\\TS01\\25670305_140227\\img/01.png]]
+
+05-03-2024T14:02:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-03-2024T14:02:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02" time="3.959" classname="Test Cases/TC02" status="PASSED">
+         <system-out><![CDATA[05-03-2024T14:02:38 - [TEST_CASE][PASSED] - Test Cases/TC02: Test Cases/TC02
+
+05-03-2024T14:02:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T14:02:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T14:02:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T14:02:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T14:02:38 - [TEST_STEP][PASSED] - navigateToUrl("http://127.0.0.1/customerphp/customer.php"): Navigate to 'http://127.0.0.1/customerphp/customer.php' successfully
+
+05-03-2024T14:02:38 - [MESSAGE][PASSED] - Navigate to 'http://127.0.0.1/customerphp/customer.php' successfully
+
+05-03-2024T14:02:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_First Name_firstName"), "johnj"): Text 'johnj' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T14:02:39 - [MESSAGE][PASSED] - Text 'johnj' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T14:02:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Last Name_lastName"), "canoncanoncano"): Text 'canoncanoncano' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T14:02:40 - [MESSAGE][PASSED] - Text 'canoncanoncano' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T14:02:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Age_age"), "149"): Text '149' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T14:02:40 - [MESSAGE][PASSED] - Text '149' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T14:02:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Form/button_Submit")): Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T14:02:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T14:02:41 - [TEST_STEP][PASSED] - verifyTextPresent("First Name", false): Text 'First Name' is present on page 
+
+05-03-2024T14:02:41 - [MESSAGE][PASSED] - Text 'First Name' is present on page 
+
+05-03-2024T14:02:41 - [TEST_STEP][PASSED] - takeFullPageScreenshot("img/02.png"): Taking screenshot successfully
+
+05-03-2024T14:02:41 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-03-2024T14:02:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\TC001\\Reports\\25670305_140227\\TS01\\25670305_140227\\img/02.png]]
+
+05-03-2024T14:02:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-03-2024T14:02:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC03" time="3.806" classname="Test Cases/TC03" status="PASSED">
+         <system-out><![CDATA[05-03-2024T14:02:41 - [TEST_CASE][PASSED] - Test Cases/TC03: Test Cases/TC03
+
+05-03-2024T14:02:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T14:02:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T14:02:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T14:02:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T14:02:42 - [TEST_STEP][PASSED] - navigateToUrl("http://127.0.0.1/customerphp/customer.php"): Navigate to 'http://127.0.0.1/customerphp/customer.php' successfully
+
+05-03-2024T14:02:42 - [MESSAGE][PASSED] - Navigate to 'http://127.0.0.1/customerphp/customer.php' successfully
+
+05-03-2024T14:02:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_First Name_firstName"), "Johnjohnjohnjo"): Text 'Johnjohnjohnjo' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T14:02:43 - [MESSAGE][PASSED] - Text 'Johnjohnjohnjo' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T14:02:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Last Name_lastName"), "canoncanoncanon"): Text 'canoncanoncanon' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T14:02:44 - [MESSAGE][PASSED] - Text 'canoncanoncanon' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T14:02:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Age_age"), "150"): Text '150' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T14:02:44 - [MESSAGE][PASSED] - Text '150' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T14:02:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Form/button_Submit")): Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T14:02:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T14:02:45 - [TEST_STEP][PASSED] - verifyTextPresent("First Name", false): Text 'First Name' is present on page 
+
+05-03-2024T14:02:45 - [MESSAGE][PASSED] - Text 'First Name' is present on page 
+
+05-03-2024T14:02:45 - [TEST_STEP][PASSED] - takeFullPageScreenshot("img/03.png"): Taking screenshot successfully
+
+05-03-2024T14:02:45 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-03-2024T14:02:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\TC001\\Reports\\25670305_140227\\TS01\\25670305_140227\\img/03.png]]
+
+05-03-2024T14:02:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-03-2024T14:02:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC04" time="3.869" classname="Test Cases/TC04" status="PASSED">
+         <system-out><![CDATA[05-03-2024T14:02:45 - [TEST_CASE][PASSED] - Test Cases/TC04: Test Cases/TC04
+
+05-03-2024T14:02:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T14:02:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T14:02:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T14:02:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T14:02:46 - [TEST_STEP][PASSED] - navigateToUrl("http://127.0.0.1/customerphp/customer.php"): Navigate to 'http://127.0.0.1/customerphp/customer.php' successfully
+
+05-03-2024T14:02:46 - [MESSAGE][PASSED] - Navigate to 'http://127.0.0.1/customerphp/customer.php' successfully
+
+05-03-2024T14:02:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_First Name_firstName"), "Johnjohnjohnjo"): Text 'Johnjohnjohnjo' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T14:02:47 - [MESSAGE][PASSED] - Text 'Johnjohnjohnjo' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T14:02:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Last Name_lastName"), "canoncan"): Text 'canoncan' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T14:02:48 - [MESSAGE][PASSED] - Text 'canoncan' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T14:02:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Age_age"), "75"): Text '75' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T14:02:48 - [MESSAGE][PASSED] - Text '75' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T14:02:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Form/button_Submit")): Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T14:02:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T14:02:48 - [TEST_STEP][PASSED] - verifyTextPresent("First Name", false): Text 'First Name' is present on page 
+
+05-03-2024T14:02:49 - [MESSAGE][PASSED] - Text 'First Name' is present on page 
+
+05-03-2024T14:02:49 - [TEST_STEP][PASSED] - takeFullPageScreenshot("img/04.png"): Taking screenshot successfully
+
+05-03-2024T14:02:49 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-03-2024T14:02:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\TC001\\Reports\\25670305_140227\\TS01\\25670305_140227\\img/04.png]]
+
+05-03-2024T14:02:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-03-2024T14:02:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC05" time="3.611" classname="Test Cases/TC05" status="PASSED">
+         <system-out><![CDATA[05-03-2024T14:02:49 - [TEST_CASE][PASSED] - Test Cases/TC05: Test Cases/TC05
+
+05-03-2024T14:02:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T14:02:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T14:02:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T14:02:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T14:02:50 - [TEST_STEP][PASSED] - navigateToUrl("http://127.0.0.1/customerphp/customer.php"): Navigate to 'http://127.0.0.1/customerphp/customer.php' successfully
+
+05-03-2024T14:02:50 - [MESSAGE][PASSED] - Navigate to 'http://127.0.0.1/customerphp/customer.php' successfully
+
+05-03-2024T14:02:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_First Name_firstName"), "johnjohnjohnjoh"): Text 'johnjohnjohnjoh' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T14:02:51 - [MESSAGE][PASSED] - Text 'johnjohnjohnjoh' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T14:02:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Last Name_lastName"), "canoncan"): Text 'canoncan' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T14:02:51 - [MESSAGE][PASSED] - Text 'canoncan' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T14:02:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Age_age"), "75"): Text '75' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T14:02:52 - [MESSAGE][PASSED] - Text '75' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T14:02:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Form/button_Submit")): Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T14:02:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T14:02:52 - [TEST_STEP][PASSED] - verifyTextPresent("First Name", false): Text 'First Name' is present on page 
+
+05-03-2024T14:02:52 - [MESSAGE][PASSED] - Text 'First Name' is present on page 
+
+05-03-2024T14:02:52 - [TEST_STEP][PASSED] - takeFullPageScreenshot("img/05.png"): Taking screenshot successfully
+
+05-03-2024T14:02:53 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-03-2024T14:02:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\TC001\\Reports\\25670305_140227\\TS01\\25670305_140227\\img/05.png]]
+
+05-03-2024T14:02:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-03-2024T14:02:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC06" time="3.895" classname="Test Cases/TC06" status="PASSED">
+         <system-out><![CDATA[05-03-2024T14:02:53 - [TEST_CASE][PASSED] - Test Cases/TC06: Test Cases/TC06
+
+05-03-2024T14:02:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T14:02:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T14:02:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T14:02:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T14:02:53 - [TEST_STEP][PASSED] - navigateToUrl("http://127.0.0.1/customerphp/customer.php"): Navigate to 'http://127.0.0.1/customerphp/customer.php' successfully
+
+05-03-2024T14:02:54 - [MESSAGE][PASSED] - Navigate to 'http://127.0.0.1/customerphp/customer.php' successfully
+
+05-03-2024T14:02:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_First Name_firstName"), "johnj"): Text 'johnj' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T14:02:54 - [MESSAGE][PASSED] - Text 'johnj' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T14:02:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Last Name_lastName"), "canoncan"): Text 'canoncan' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T14:02:55 - [MESSAGE][PASSED] - Text 'canoncan' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T14:02:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Age_age"), "75"): Text '75' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T14:02:55 - [MESSAGE][PASSED] - Text '75' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T14:02:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Form/button_Submit")): Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T14:02:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T14:02:56 - [TEST_STEP][PASSED] - verifyTextPresent("First Name", false): Text 'First Name' is present on page 
+
+05-03-2024T14:02:56 - [MESSAGE][PASSED] - Text 'First Name' is present on page 
+
+05-03-2024T14:02:56 - [TEST_STEP][PASSED] - takeFullPageScreenshot("img/06.png"): Taking screenshot successfully
+
+05-03-2024T14:02:56 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-03-2024T14:02:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\TC001\\Reports\\25670305_140227\\TS01\\25670305_140227\\img/06.png]]
+
+05-03-2024T14:02:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-03-2024T14:02:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC08" time="3.626" classname="Test Cases/TC08" status="PASSED">
+         <system-out><![CDATA[05-03-2024T14:02:57 - [TEST_CASE][PASSED] - Test Cases/TC08: Test Cases/TC08
+
+05-03-2024T14:02:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T14:02:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T14:02:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T14:02:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T14:02:57 - [TEST_STEP][PASSED] - navigateToUrl("http://127.0.0.1/customerphp/customer.php"): Navigate to 'http://127.0.0.1/customerphp/customer.php' successfully
+
+05-03-2024T14:02:57 - [MESSAGE][PASSED] - Navigate to 'http://127.0.0.1/customerphp/customer.php' successfully
+
+05-03-2024T14:02:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_First Name_firstName"), "johnjohn"): Text 'johnjohn' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T14:02:58 - [MESSAGE][PASSED] - Text 'johnjohn' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T14:02:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Last Name_lastName"), "cano"): Text 'cano' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T14:02:59 - [MESSAGE][PASSED] - Text 'cano' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T14:02:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Age_age"), "75"): Text '75' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T14:02:59 - [MESSAGE][PASSED] - Text '75' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T14:02:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Form/button_Submit")): Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T14:03:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T14:03:00 - [TEST_STEP][PASSED] - verifyTextPresent("First Name", false): Text 'First Name' is present on page 
+
+05-03-2024T14:03:00 - [MESSAGE][PASSED] - Text 'First Name' is present on page 
+
+05-03-2024T14:03:00 - [TEST_STEP][PASSED] - takeFullPageScreenshot("img/08.png"): Taking screenshot successfully
+
+05-03-2024T14:03:00 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-03-2024T14:03:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\TC001\\Reports\\25670305_140227\\TS01\\25670305_140227\\img/08.png]]
+
+05-03-2024T14:03:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-03-2024T14:03:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC10" time="3.602" classname="Test Cases/TC10" status="PASSED">
+         <system-out><![CDATA[05-03-2024T14:03:00 - [TEST_CASE][PASSED] - Test Cases/TC10: Test Cases/TC10
+
+05-03-2024T14:03:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T14:03:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T14:03:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T14:03:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T14:03:01 - [TEST_STEP][PASSED] - navigateToUrl("http://127.0.0.1/customerphp/customer.php"): Navigate to 'http://127.0.0.1/customerphp/customer.php' successfully
+
+05-03-2024T14:03:01 - [MESSAGE][PASSED] - Navigate to 'http://127.0.0.1/customerphp/customer.php' successfully
+
+05-03-2024T14:03:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_First Name_firstName"), "johnjohn"): Text 'johnjohn' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T14:03:02 - [MESSAGE][PASSED] - Text 'johnjohn' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T14:03:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Last Name_lastName"), "canoncan"): Text 'canoncan' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T14:03:02 - [MESSAGE][PASSED] - Text 'canoncan' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T14:03:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Age_age"), "0"): Text '0' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T14:03:03 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T14:03:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Form/button_Submit")): Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T14:03:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T14:03:03 - [TEST_STEP][PASSED] - verifyTextPresent("First Name", false): Text 'First Name' is present on page 
+
+05-03-2024T14:03:04 - [MESSAGE][PASSED] - Text 'First Name' is present on page 
+
+05-03-2024T14:03:04 - [TEST_STEP][PASSED] - takeFullPageScreenshot("img/010.png"): Taking screenshot successfully
+
+05-03-2024T14:03:04 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-03-2024T14:03:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\TC001\\Reports\\25670305_140227\\TS01\\25670305_140227\\img/010.png]]
+
+05-03-2024T14:03:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-03-2024T14:03:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC11" time="3.533" classname="Test Cases/TC11" status="PASSED">
+         <system-out><![CDATA[05-03-2024T14:03:04 - [TEST_CASE][PASSED] - Test Cases/TC11: Test Cases/TC11
+
+05-03-2024T14:03:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-03-2024T14:03:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-03-2024T14:03:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-03-2024T14:03:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-03-2024T14:03:04 - [TEST_STEP][PASSED] - navigateToUrl("http://127.0.0.1/customerphp/customer.php"): Navigate to 'http://127.0.0.1/customerphp/customer.php' successfully
+
+05-03-2024T14:03:05 - [MESSAGE][PASSED] - Navigate to 'http://127.0.0.1/customerphp/customer.php' successfully
+
+05-03-2024T14:03:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_First Name_firstName"), "johnjohn"): Text 'johnjohn' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T14:03:05 - [MESSAGE][PASSED] - Text 'johnjohn' is set on object 'Object Repository/Page_Customer Form/input_First Name_firstName'
+
+05-03-2024T14:03:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Last Name_lastName"), "canoncan"): Text 'canoncan' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T14:03:06 - [MESSAGE][PASSED] - Text 'canoncan' is set on object 'Object Repository/Page_Customer Form/input_Last Name_lastName'
+
+05-03-2024T14:03:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Customer Form/input_Age_age"), "151"): Text '151' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T14:03:07 - [MESSAGE][PASSED] - Text '151' is set on object 'Object Repository/Page_Customer Form/input_Age_age'
+
+05-03-2024T14:03:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Customer Form/button_Submit")): Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T14:03:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Customer Form/button_Submit' is clicked on
+
+05-03-2024T14:03:07 - [TEST_STEP][PASSED] - verifyTextPresent("First Name", false): Text 'First Name' is present on page 
+
+05-03-2024T14:03:07 - [MESSAGE][PASSED] - Text 'First Name' is present on page 
+
+05-03-2024T14:03:07 - [TEST_STEP][PASSED] - takeFullPageScreenshot("img/011.png"): Taking screenshot successfully
+
+05-03-2024T14:03:07 - [MESSAGE][INFO] - 0 hidden object(s)
+
+05-03-2024T14:03:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Administrator\\Katalon Studio\\TC001\\Reports\\25670305_140227\\TS01\\25670305_140227\\img/011.png]]
+
+05-03-2024T14:03:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+05-03-2024T14:03:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-03-2024T14:02:33 - [TEST_SUITE][PASSED] - TS01: Test Cases/TC11]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
